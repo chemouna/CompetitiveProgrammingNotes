@@ -9,6 +9,9 @@
  
 ## Ideas 
 
+- can i use a greedy approach so that for each pipe try whatever setting fullfils the condition on the junction it's coming from ? 
+
+
 ## Review
 
 ### Understanding the problem 
@@ -33,7 +36,11 @@ and its a set of pipes where all junctions are wired and nothing goes outside of
 - Draw a figure 
 https://ibb.co/h3YXAJ
 
-- suitable notation 
+- Suitable notation 
+for a solution to be  possible sum (s[i]) for 1 <= i <= n must be = 0
+
+if s[i] < 0 => sum(outgoing edges values from junction i) should be >= |s[i]|
+if s[i] > 0 => sum(incoming edges values to junction i) should be >= s[i]
 
 - what are the various parts of the condition ? 
 
