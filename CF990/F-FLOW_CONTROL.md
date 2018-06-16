@@ -14,7 +14,9 @@
 
 ## Review
 
-### Understanding the problem 
+### Polya's method
+
+#### Understanding the problem 
 
 - What is the Unknown ? 
 the pipe settings f1,..fm to use so that all specified constraints are satisfied 
@@ -42,7 +44,10 @@ for a solution to be  possible sum (s[i]) for 1 <= i <= n must be = 0
 if s[i] < 0 => sum(outgoing edges values from junction i) should be >= |s[i]|
 if s[i] > 0 => sum(incoming edges values to junction i) should be >= s[i]
 
-- what are the various parts of the condition ? 
+#### Devising a plan
+
+- Have you seen a similar the problem before ?
+max flow ?
 
 
 ### Key Points and Observations:
